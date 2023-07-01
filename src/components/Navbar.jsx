@@ -47,7 +47,7 @@ const Navbar = () => {
     console.log(open);
   };
   return (
-    <div className="bg-[#10002b] font-sans">
+    <div className="bg-[#000000] font-sans w-full fixed">
       <div className="mx-auto  p-4  lg:p-8">
         <div className="flex items-center justify-between h-16 pl-4 ">
           {/* Logo */}
@@ -70,7 +70,7 @@ const Navbar = () => {
               {navlinks.map((link, index) => (
                 <a
                   key={index}
-                  className="text-[#E4E7EC] transition-all duration-500 hover:bg-[#3c096c] hover:text-[#fbfaff] px-2 py-1 rounded-md text-md font-medium"
+                  className="text-[#E4E7EC] transition-all duration-350 hover:bg-[#3c096c] hover:text-[#fbfaff] px-2 py-1 rounded-md text-md font-medium"
                   href={link.link}
                   target ={link.newtab ? "_blank" : ""} rel="noreferrer" >
                   {link.title}
