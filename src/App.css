@@ -1,5 +1,4 @@
-button {
-    display: flex;
+.button1 {
     align-items: center;
     font-family: inherit;
     font-weight: 500;
@@ -13,24 +12,24 @@ button {
     border-radius: 16px;
   }
   
-  button svg {
+.button1 svg {
     margin-right: 3px;
     transform: rotate(0deg);
     transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
   }
   
-  button span {
+.button1 span {
     transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
   }
   
-  button:hover {
+.button1:hover {
     background: linear-gradient(218deg, #000000, #0d0005, #14000d, #180016, #18001e, #170022, #140026, #10002b, #10002b, #10002b, #10002b, #10002B);
   }
 
-  button:hover svg {
+.button1:hover svg {
     transform: translateX(5px) rotate(90deg);
   }
   
-  button:hover span {
+.button1:hover span {
     transform: translateX(7px);
   }
