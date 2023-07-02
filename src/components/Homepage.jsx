@@ -3,24 +3,21 @@ import Profile_Image from "../assets/profile_img.jpg";
 
 const Homepage = () => {
   return (
-    <div className="flex font-sans w-full h-screen" style={{
+    <div className="flex  font-sans w-full h-screen" style={{
       background: "linear-gradient(180deg, hsla(0, 0%, 0%, 1) 0%, hsla(251, 62%, 24%, 1) 100%)"
         }}>
-      <div className="max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-col">
+      <div className="max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-col w-full h-full">
         <div className="max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-row">
           <div className='text-center mx-auto my-auto justify-left text-white sm:text-left sm:text-6xl text-4xl font-bold space'>
             Hey! I'm Himanshu Agarwal
             <p className="pt-8 text-xl text-slate-400">
               Software Developer | Data Analsyt
             </p>
-            <div className="flex justify-center pt-10 sm:justify-start sm: font-normal text-xl text-slate-400">
-              <a href="https://linktr.ee/himanshu_agarwal" target="_blank" rel="noreferrer">
-                <button className='button1 pl-[20px] w-[200px] flex'>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path>
-                  </svg>
-                  <span className='pl-4'>Get in Touch</span>
-                </button>
-              </a>  
+            <div className="flex justify-center pt-10 sm:justify-start font-normal text-xl text-slate-400">
+              <button className='button1 pl-[20px] w-[200px] flex'>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
+                <a href="https://linktr.ee/himanshu_agarwal" target="_blank" rel="noreferrer" className='pl-4'>Get in Touch</a>
+              </button> 
             </div>
           </div>
           <div className="align-items justify-center mx-auto" >

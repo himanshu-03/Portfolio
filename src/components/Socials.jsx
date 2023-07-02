@@ -16,7 +16,7 @@ const Socials = () => {
         <>GitHub <Icon size={30} icon={github} style={{color: '#6e5494'}}/></>
       ),
       href: 'https://github.com/himanshu-03',
-      style: 'rounded-md',
+      style: 'rounded-tr-md',
     },
     {
       id:2,
@@ -24,7 +24,6 @@ const Socials = () => {
         <>LinkedIn <Icon size={30} icon={linkedin} style={{color: '#0077B5'}}/></>
       ),
       href: 'https://linkedin.com/in/agarwal-himanshu',
-      style: 'rounded-md',
     },
     {
       id:3,
@@ -32,7 +31,6 @@ const Socials = () => {
         <>Mail <Icon size={30} icon={ic_email_twotone} style={{color: '#BB001B'}}/></>
       ),
       href: 'mailto:himanshuaaagarwal2002@gmail.com',
-      style: 'rounded-md',
     },
     {
       id:4,
@@ -40,7 +38,6 @@ const Socials = () => {
         <>Resume <Icon size={30} icon={user} style={{color: '#E9C46A'}}/></>
       ),
       href: 'https://instagram.com/_._hiimanshu_._',
-      style: 'rounded-md',
     },
     {
       id:5,
@@ -48,16 +45,16 @@ const Socials = () => {
         <>Instagram <Icon size={30} icon={instagram} style={{color: '#bc2a8d'}}/></>
       ),
       href: 'https://instagram.com/_._hiimanshu_._',
-      style: 'rounded-md',
+      style: 'rounded-br-md',
     }
   ];
 
   return (
-    <div className="hidden lg:flex flex-col w-full h-screen justify-center fixed left-0 my-auto mx-auto">
+    <div className="hidden lg:flex flex-col top-[35%] fixed left-0">
       <ul>
 
-        {links.map(({child, href,id})=>(
-          <li key={id} className={`flex justify-between items-center my-auto mx-auto w-40 h-[65px] px-4 ml-[-100px] bg-black hover:ml-[-5px] hover:rounded-md duration-300 cursor-pointer {style}`}>
+        {links.map(({child, href, style, id})=>(
+          <li key={id} className={`flex justify-between items-center my-auto mx-auto w-40 h-[65px] px-4 ml-[-100px] bg-black hover:ml-[-5px] hover:rounded-md duration-300 cursor-pointer ${style}`}>
             <a href = {href} className="flex justify-between pl-2 items-center text-white w-full" target="_blank" rel="noreferrer">
               {child}
             </a>
