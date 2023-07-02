@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="flex font-sans w-full h-screen" style={{
+    <div id="About" className="flex font-sans w-full h-screen" style={{
         background: "linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(251, 62%, 24%, 1) 100%)"
         }}>
       <div className="mt-[100px] max-w-screen-lg flex flex-col mx-auto justify-start p-5 text-white text-4xl w-full h-full">

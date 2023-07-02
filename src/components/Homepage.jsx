@@ -3,7 +3,7 @@ import Profile_Image from "../assets/profile_img.jpg";
 
 const Homepage = () => {
   return (
-    <div className="flex  font-sans w-full h-screen" style={{
+    <div id="Home" className="flex  font-sans w-full h-screen" style={{
       background: "linear-gradient(180deg, hsla(0, 0%, 0%, 1) 0%, hsla(251, 62%, 24%, 1) 100%)"
         }}>
       <div className="max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-col w-full h-full">

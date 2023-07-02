@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { link } from "react-scroll";
 import logo from "../assets/logo.png";
 
 const navlinks = [
