@@ -5,7 +5,7 @@ const About = () => {
     <div className="flex font-sans w-full h-screen" style={{
         background: "linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(251, 62%, 24%, 1) 100%)"
         }}>
-      <div className="mt-[100px] max-w-screen-lg flex flex-col mx-auto justify-start text-white text-4xl w-full h-full">
+      <div className="mt-[100px] max-w-screen-lg flex flex-col mx-auto justify-start p-5 text-white text-4xl w-full h-full">
         <div className='pb-8'>
           <p className='text-4xl inline border-b-4 font-bold border-gray-500'>About Me</p>
         </div>
