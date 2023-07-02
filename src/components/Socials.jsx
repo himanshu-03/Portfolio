@@ -6,7 +6,6 @@ import {instagram} from 'react-icons-kit/fa/instagram'
 import {ic_email_twotone} from 'react-icons-kit/md/ic_email_twotone'
 import {user} from 'react-icons-kit/icomoon/user'
 
-
 const Socials = () => {
 
   const links = [
