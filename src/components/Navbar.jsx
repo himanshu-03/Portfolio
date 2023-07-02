@@ -41,7 +41,7 @@ const Navbar = () => {
     console.log(open);
   };
   return (
-    <div className="bg-[#000000] font-sans w-full fixed">
+    <div className="bg-[#000000] font-sans w-full fixed z-50">
       <div className="mx-auto  p-4  lg:p-8">
         <div className="flex items-center justify-between h-8 pl-4 ">
           {/* Logo */}
