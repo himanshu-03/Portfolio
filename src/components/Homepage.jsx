@@ -6,9 +6,9 @@ const Homepage = () => {
     <div className="flex font-sans w-full h-screen" style={{
       background: "linear-gradient(180deg, hsla(0, 0%, 0%, 1) 0%, hsla(251, 62%, 24%, 1) 100%)"
         }}>
-      <div className="max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-col">
+      <div className="pl-5 max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-col">
         <div className="max-w-screen-lg flex flex-col align-items justify-center mx-auto my-auto md:flex-row">
-          <div className='my-auto align-items justify-left text-white text-6xl font-bold'>
+          <div className='my-auto align-items justify-left text-white sm:text-6xl text-4xl font-bold'>
             Hey! I'm Himanshu Agarwal
             <p className="pt-8 text-xl text-slate-400">
               Software Developer | Data Analsyt
@@ -20,8 +20,8 @@ const Homepage = () => {
                 </button>
             </div>
           </div>
-          <div className="align-items justify-center mx-auto my-auto" >
-            <img src = {Profile_Image} alt="Profile" class = "pt-10 rounded-2xl mx-auto my-auto w-2/3 md:w-80" />
+          <div className="align-items justify-center mx-auto" >
+            <img src = {Profile_Image} alt="Profile" class = "mt-10 rounded-2xl mx-auto w-2/3 md:w-80" />
           </div>
         </div>
       </div>
