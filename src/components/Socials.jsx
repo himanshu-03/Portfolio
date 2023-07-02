@@ -16,7 +16,6 @@ const Socials = () => {
         <>GitHub <Icon size={30} icon={github} style={{color: '#6e5494'}}/></>
       ),
       href: 'https://github.com/himanshu-03',
-      style: 'rounded-tr-md',
     },
     {
       id:2,
@@ -37,7 +36,7 @@ const Socials = () => {
       child:(
         <>Resume <Icon size={30} icon={user} style={{color: '#E9C46A'}}/></>
       ),
-      href: 'https://instagram.com/_._hiimanshu_._',
+      href: 'https://drive.google.com/file/d/1j4ibK36ypsBjmejYUREvSWVR6J6wciiW/view?usp=drive_link',
     },
     {
       id:5,
@@ -45,7 +44,6 @@ const Socials = () => {
         <>Instagram <Icon size={30} icon={instagram} style={{color: '#bc2a8d'}}/></>
       ),
       href: 'https://instagram.com/_._hiimanshu_._',
-      style: 'rounded-br-md',
     }
   ];
 
@@ -54,7 +52,7 @@ const Socials = () => {
       <ul>
 
         {links.map(({child, href, style, id})=>(
-          <li key={id} className={`flex justify-between items-center my-auto mx-auto w-40 h-[65px] px-4 ml-[-100px] bg-black hover:ml-[-5px] hover:rounded-md duration-300 cursor-pointer ${style}`}>
+          <li key={id} className={`flex justify-between items-center my-1 rounded-r-full mx-auto w-40 h-[65px] px-4 ml-[-100px] bg-black hover:ml-[-5px] hover:rounded-r-full duration-300 cursor-pointer ${style}`}>
             <a href = {href} className="flex justify-between pl-2 items-center text-white w-full" target="_blank" rel="noreferrer">
               {child}
             </a>
