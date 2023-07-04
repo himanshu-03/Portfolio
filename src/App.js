@@ -8,6 +8,7 @@ import Achievements from './components/Achievements';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Socials from './components/Socials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Achievements />
     <Blogs />
     <Contact />
+    <Footer />
     </>
   );
 }
